@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#lights-header {
+    border-bottom: 2px solid black;
+    margin: 2%;
+    padding: 0%;
+}
+
+#locks-header {
+    border-bottom: 2px solid black;
+    margin: 2%;
+    padding: 0%;
+}
+
+#lightsh2 {
+    margin: 0%;
+    padding: 0%;
+    background-color: #2297C7;
+}
+
+#locksh2 {
+    /*margin: 0%;
+    padding: 0%;*/
+}
+
+#ground-floor {
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+#first-floor {
+    margin-top: 0%;
+    float: right;
+    margin-right: 5%;
+}
+
+#doors {
+    margin-left: 5%;
+}
+
+#gates {
+    margin-right: 5%;
+    float: right;
+}
+
+.slow .toggle-group {
+    transition: left 0.7s;
+    -webkit-transition: left 0.7s;
+}
+
+.action {
+    -webkit-box-shadow: 5px 8px 20px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: 5px 8px 20px 2px rgba(0, 0, 0, 0.71);
+}
+
+.gh {
+    background-color: red;
+}
+
+.locks-control {
+    display: none;
+    ;
+}
